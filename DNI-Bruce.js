@@ -4,6 +4,7 @@ const dialog = require('dialog');
 var letrasPosibles = 'TRWAGMYFPDXBNJZSQVHLCKE'
 
 var numeroIntroducido_STRING = dialog.prompt('Ingrese el numero DNI (Sin letra):')
+println('"' + numeroIntroducido_STRING + '"')
 var numeroIntroducido = parse_int(numeroIntroducido_STRING)
 
 var moduloLetra = numeroIntroducido % 23;
