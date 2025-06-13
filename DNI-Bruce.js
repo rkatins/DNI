@@ -1,17 +1,24 @@
-// "Importaciones"
-const dialog = require('dialog')
+// Importaciones
+const dialog = require('dialog');
 
-
-var letrasPosibles= 'TRWAGMYFPDXBNJZSQVHLCKE'
+var letrasPosibles = 'TRWAGMYFPDXBNJZSQVHLCKE'
 
 var numeroIntroducido_STRING = dialog.prompt('Ingrese el numero DNI (Sin letra):')
-var numeroIntroducido = parse_int(numeroIntroducido_STRING )
 
-var moduloLetra= numeroIntroducido % 23;
+println('Entrada (STRING): ' + numeroIntroducido_STRING)
 
-var letraDNI= letrasPosibles.charAt(moduloLetra);
+var numeroIntroducido = parse_int(numeroIntroducido_STRING)
+println('Entrada convertido: ' + numeroIntroducido)
 
-println('Letra -> ' + letraDNI)
-delay(2000)
+var moduloLetra = numeroIntroducido % 23;
+var letraDNI = letrasPosibles.charAt(moduloLetra);
 
+if (isNaN(numeroIntroducido)) {
+	println('numeroIntroducido -> NaN')
+} else if (isNaN(moduloLetra)) {
+	println('moduloLetra -> NaN')
+} else {
+	println('Letra -> ' + letraDNI)
+}
 
+delay(8000)
