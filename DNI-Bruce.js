@@ -5,7 +5,8 @@ const keyboard = require('keyboard')
 var letrasPosibles = 'TRWAGMYFPDXBNJZSQVHLCKE'
 
 println('Ingrese el numero DNI (Sin letra):')
-if (keyboard.getNextPress()) {
+
+if (keyboard.getAnyPress()) {
     var numeroIntroducido_STRING = dialog.prompt()
     var numeroIntroducido = parse_int(numeroIntroducido_STRING)
 
