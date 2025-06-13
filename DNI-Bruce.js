@@ -1,11 +1,17 @@
 // Importaciones
 const dialog = require('dialog')
 const keyboard = require('keyboard')
+// const display = require("display")
 
 var letrasPosibles = 'TRWAGMYFPDXBNJZSQVHLCKE'
 
-while (!keyboard.getAnyPress()) {
-    println('Ingrese numero DNI:')
+// 135x240
+// display.setCursor(0, 0)
+
+println('Ingrese numero DNI:')
+
+while (!keyboard.getSelPress()) {
+    delay(1)
 }
 
 var numeroIntroducido_STRING = dialog.prompt()
@@ -15,7 +21,7 @@ var moduloLetra = numeroIntroducido % 23;
 var letraDNI = letrasPosibles.charAt(moduloLetra);
 
 if (numeroIntroducido_STRING === null || numeroIntroducido_STRING === undefined) {
-    println('numeroIntroducido_STRING -> nul')
+    println('numeroIntroducido_STRING -> null')
 } else if (numeroIntroducido_STRING === '') {
     println('numeroIntroducido_STRING -> Vacio')
 } else if (isNaN(numeroIntroducido)) {
@@ -24,5 +30,5 @@ if (numeroIntroducido_STRING === null || numeroIntroducido_STRING === undefined)
     println('moduloLetra -> NaN')
 } else {
     println('Letra -> ' + letraDNI)
-    delay(8000)
+    delay(3000)
 }
