@@ -10,6 +10,8 @@ var moduloLetra = numeroIntroducido % 23;
 var letraDNI = letrasPosibles.charAt(moduloLetra);
 
 if (numeroIntroducido_STRING === null || numeroIntroducido_STRING === undefined) {
+    println('numeroIntroducido_STRING -> nul')
+} else if (numeroIntroducido_STRING === '') {
     println('numeroIntroducido_STRING -> Vacio')
 } else if (isNaN(numeroIntroducido)) {
 	println('numeroIntroducido -> NaN')
