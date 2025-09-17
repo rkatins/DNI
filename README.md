@@ -8,8 +8,11 @@ Este proyecto implementa el algoritmo de cálculo de la letra de control del DNI
 - ### **`DNI-Bruce.js`**
   Versión interactiva con validación completa 
 > [!NOTE]
-> Para el interprete de Ficheros `.js` de [Bruce](https://github.com/pr3y/Bruce/wiki/) 
+> Solo valida en el interprete de Ficheros `.js` de [Bruce](https://github.com/pr3y/Bruce/wiki/) 
 
+- ### **`DNI-LinuxScript.sh`**
+  Version para consola de Linux
+  
 - ### **`DNI-WindowsScript.bat`**
   Version para consola de Windows
 > [!WARNING]
@@ -45,6 +48,7 @@ Este proyecto implementa el algoritmo de cálculo de la letra de control del DNI
 3. Búsqueda: Usar el índice en la cadena "TRWAGMYFPDXBNJZSQVHLCKE"
 
 4. Salida: Número + letra de control (_Solo en [DNI-Bruce.js](https://github.com/rkatins/DNI/blob/main/DNI-Bruce.js)_).
+
 
 
 
