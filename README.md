@@ -31,7 +31,7 @@ Este proyecto implementa el algoritmo de cálculo de la letra de control del DNI
 > [!NOTE]
 > No hace uso de un array en el que almacenar las letras
 
-- ### **`dni.html`**:
+- ### **`DNI-HTML.html`**:
   Version para navegadores web (como herramienta web)
 > En resumen una forma simpleficada para hacerlo con un `script js`
 > Se podria extrapolar a un fichero `js` directamente
@@ -48,6 +48,7 @@ Este proyecto implementa el algoritmo de cálculo de la letra de control del DNI
 3. Búsqueda: Usar el índice en la cadena "TRWAGMYFPDXBNJZSQVHLCKE"
 
 4. Salida: Número + letra de control (_Solo en [DNI-Bruce.js](https://github.com/rkatins/DNI/blob/main/DNI-Bruce.js)_).
+
 
 
 
