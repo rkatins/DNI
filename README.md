@@ -13,7 +13,7 @@ Este proyecto implementa el algoritmo de cálculo de la letra de control del **D
 
 | Archivo | Descripción | Notas Adicionales |
 | :--- | :--- | :--- |
-| `DNI-Bruce.js` | Versión interactiva con **validación completa**. | **[!NOTE]** Solo valida en el intérprete de ficheros `.js` de [Bruce](https://github.com/pr3y/Bruce/wiki/). |
+| `DNI-Bruce.js` | Versión interactiva con **validación completa**. | Solo valida en el intérprete de ficheros `.js` de [Bruce](https://github.com/pr3y/Bruce/wiki/). |
 | `DNI-HTML.html` | Versión para **navegadores web** (como herramienta web). | Una forma simplificada de hacerlo con un *script* JS embebido. Se podría extrapolar a un fichero `.js` directamente. |
 
 ### ☕ Java (Backend/Consola)
@@ -75,7 +75,7 @@ This project implements the Spanish **DNI (National Identity Document)** control
 
 | File | Description | Additional Notes |
 | :--- | :--- | :--- |
-| `DNI-Bruce.js` | Interactive version with **full validation**. | **[!NOTE]** Only validates in the [Bruce](https://github.com/pr3y/Bruce/wiki/) `.js` file interpreter. |
+| `DNI-Bruce.js` | Interactive version with **full validation**. | Only validates in the [Bruce](https://github.com/pr3y/Bruce/wiki/) `.js` file interpreter. |
 | `DNI-HTML.html` | Version for **web browsers** (as a web tool). | A simplified way to do it with an embedded JS script. Could be extrapolated directly to a `.js` file. |
 
 ### ☕ Java (Backend/Console)
@@ -127,3 +127,4 @@ Me gustaria hacer un `readme.md` que siga la siguiente estructura -> archivo `RE
 Modificala para adaptarla a todos los archivos que te he mostrado, y categorizandola por cada tipo de lenguaje (es decir una seccion para JS, otra PHP, otra scripts, ...) a ser posible usa emojis para identificar cada secccion (en el caso de haber un emoji para la representacion del lenguaje de programacion) y añadir un divisor para incluir lo mismo pero en ingles.
 A continuacion te paso la descripcion del repositorio para que tengas una ligera idea de por donde puede ir encaminado el repositorio -> Descripcion repositorio <-
 -->
+
